@@ -1,0 +1,124 @@
+{
+	"name": "vscode-terminal-gitclone-api-example",
+	"displayName": "vscode-terminal-gitclone-api-example",
+	"description": "abc",
+	"version": "0.0.1",
+	"publisher": "vscode-gitclone-samples",
+	"private": true,
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saresingianni/vscode-gitclone-api-extension-samples"
+	},
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"enabledApiProposals": [],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		
+		"_comment1 onCommand:terminalTest.createAndSend",
+		"_comment1 onCommand:terminalTest.createTerminal",
+		"_comment1 onCommand:terminalTest.createTerminalHideFromUser",
+		"_comment1 onCommand:terminalTest.createZshLoginShell",
+		"_comment1 onCommand:terminalTest.dimensions",
+		"_comment1 onCommand:terminalTest.dispose",
+		"_comment1 onCommand:terminalTest.hide",
+		"_comment1 onCommand:terminalTest.onDidChangeTerminalDimensions",
+		"_comment1 onCommand:terminalTest.onDidWriteTerminalData",
+		"_comment1 onCommand:terminalTest.processId",
+		"_comment1 onCommand:terminalTest.registerTerminalLinkProvider",
+		"_comment1 onCommand:terminalTest.sendText",
+		"_comment1 onCommand:terminalTest.sendTextNoNewLine",
+		"_comment1 onCommand:terminalTest.show",
+		"_comment1 onCommand:terminalTest.showPreserveFocus",
+		"_comment1 onCommand:terminalTest.terminals",
+		"_comment1 onCommand:terminalTest.updateEnvironment",
+		"_comment1 onCommand:terminalTest.clearEnvironment",
+		"onTerminalProfile:GitClone.terminal-profile",
+		"_comment1 onCommand:terminalTest.createTerminalGianni",
+		"onCommand:GitClone.jasminegianni",
+		"onCommand:GitClone.leaflet_catasto",
+		"onCommand:GitClone.phyton_date",
+		"onCommand:GitClone.Python_date",
+		"onCommand:GitClone.ServerSentEvents",
+		"onCommand:GitClone.Java_8_Stream_",
+		"onCommand:GitClone.EsempioFreeMarkerH2Test",
+		"onCommand:GitClone.struts_site",
+		"onCommand:GitClone.tutorials"
+	
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			
+			{
+				"command": "GitClone.jasminegianni",
+				"title": "Git Clone : Git Clone jasminegianni"
+			},
+			{
+				"command": "GitClone.leaflet_catasto",
+				"title": "Git Clone : Git Clone leaflet_catasto"
+			},
+			{
+				"command": "GitClone.phyton_date",
+				"title": "Git Clone : Git Clone phyton_date"
+			},
+			{
+				"command": "GitClone.Python_date",
+				"title": "Git Clone : Git Clone Python_date"
+			},
+			{
+				"command": "GitClone.ServerSentEvents",
+				"title": "Git Clone : Git Clone ServerSentEvents"
+			},
+			{
+				"command": "GitClone.Java_8_Stream_",
+				"title": "Git Clone : Git Clone Java_8_Stream_"
+			},
+			{
+				"command": "GitClone.EsempioFreeMarkerH2Test",
+				"title": "Git Clone : Git Clone EsempioFreeMarkerH2Test"
+			},
+			{
+				"command": "GitClone.struts_site",
+				"title": "Git Clone : Git Clone struts_site"
+			},
+			{
+				"command": "GitClone.tutorials",
+				"title": "Git Clone : Git Clone tutorials"
+			}
+		
+
+
+
+
+		],
+		"terminal": {
+			"profiles": [
+				{
+					"id": "GitClone.terminal-profile",
+					"icon": "terminal",
+					"title": "Terminal Git Clone API Profile"
+				}
+			]
+		}
+	},
+
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"lint": "eslint . --ext .ts,.tsx"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.58.0",
+		"@typescript-eslint/eslint-plugin": "^4.16.0",
+		"@typescript-eslint/parser": "^4.16.0",
+		"eslint": "^7.21.0",
+		"typescript": "^4.4.3"
+	}
+}
