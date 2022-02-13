@@ -8,6 +8,8 @@ I progetti elencati li trovate su questo Git Hub
 - [`Saresin Gianni`](https://github.com/saresingianni?tab=repositories)
 
 
+![demo](https://raw.github.com/saresingianni//vscode-gitclone-api-extension-samples/main/demo.png)
+
 ## VS Code GitClone API
 
 ### `vscode` modili  da microsoft
