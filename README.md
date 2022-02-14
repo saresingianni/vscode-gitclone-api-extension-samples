@@ -10,7 +10,7 @@ I progetti elencati li trovate su questo Git Hub
 
 ![demo](https://raw.github.com/saresingianni//vscode-gitclone-api-extension-samples/main/demo.png)
 
-![demo](https://raw.github.com/saresingianni//vscode-gitclone-api-extension-samples/main/demo2.png)
+
 
 ## VS Code GitClone API
 
